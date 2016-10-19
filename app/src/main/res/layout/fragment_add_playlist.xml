@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_playlist_name"
+        android:id="@+id/textViewName"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPlaylistName"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text" />
+
+    <Button
+        android:text="Add playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_add_playlist" />
+</LinearLayout>

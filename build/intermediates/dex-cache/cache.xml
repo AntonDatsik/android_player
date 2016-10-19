@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_655be4c5e0a98584cf550d6967cb528b1cf94111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_0aa0e9252ea67c2c61dd499112fc2bbfdef54baa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_168e03c4ef2d431ccd5eb7066fc5b5a56f848a4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_75a9c026de35a2976fda39627f6602997d0786d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_50b9ef1d52f19af526ce35da0f8d1ab213e83f1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_103877d981fe19731f576a426379650b3bc5a66a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_bfa06d36dbc9412048b929013b9f983da61dd0b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_aceb6e341e546147889fada618c9d5564a35bcad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_168e03c4ef2d431ccd5eb7066fc5b5a56f848a4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_17a892437ae626e171f0e7f877e4ce98a71a9575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_c5c0a8da6bbcb4173e4152ce98a9eb62865b196a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_77c8cd9b7515731c2e154b4fda4d94385be0fb5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_59c01c4c5a066fa2e21e17cfa7293f4890cb3b5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_acebc477ae20cdaa2c522e286fa61c3e85ea9553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_50b9ef1d52f19af526ce35da0f8d1ab213e83f1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_066a209f3423dcfcc5123aa8144bb1c97f263366.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_bfa06d36dbc9412048b929013b9f983da61dd0b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_75a9c026de35a2976fda39627f6602997d0786d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_e6a83dc245654183b44c77d35f7ed5308663a01a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_655be4c5e0a98584cf550d6967cb528b1cf94111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_a2ba59b0837d49a7f957d4003db53192d34ba526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_a2ba59b0837d49a7f957d4003db53192d34ba526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_103877d981fe19731f576a426379650b3bc5a66a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bdddb224f0b9b2212fa2fd6b61b252ae24cdf4e4">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\instant-run_0fdd35d4853a33d89757c4662f7e0179d7c0ec9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_c5c0a8da6bbcb4173e4152ce98a9eb62865b196a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_17a892437ae626e171f0e7f877e4ce98a71a9575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_e6a83dc245654183b44c77d35f7ed5308663a01a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_aceb6e341e546147889fada618c9d5564a35bcad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_0aa0e9252ea67c2c61dd499112fc2bbfdef54baa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="49d30bea5459bd83736c1479019076b630a73658">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_da9ea381eb829a58b275b566769c43f841991dfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_066a209f3423dcfcc5123aa8144bb1c97f263366.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_acebc477ae20cdaa2c522e286fa61c3e85ea9553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_59c01c4c5a066fa2e21e17cfa7293f4890cb3b5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_77c8cd9b7515731c2e154b4fda4d94385be0fb5a.jar" />
+    </item>
+
+</items>
