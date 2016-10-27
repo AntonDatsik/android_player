@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:background="@color/colorSongInfo">
 
     <ImageView
         android:id="@+id/album_full_image"
@@ -13,14 +14,16 @@
         android:layout_height="200dip" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="195dp"
         android:layout_height="wrap_content"
-        android:id="@+id/song_info_title"/>
+        android:id="@+id/song_info_title"
+        android:textColor="@android:color/background_light" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="195dp"
         android:layout_height="wrap_content"
-        android:id="@+id/song_info_artist"/>
+        android:id="@+id/song_info_artist"
+        android:textColor="@android:color/background_light" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -30,13 +33,20 @@
 
         <Button
             android:id="@+id/btn_prev_song"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/prev_song"/>
 
         <Button
+            android:text="Play"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_control"
+            android:layout_weight="1" />
+
+        <Button
             android:id="@+id/btn_next_song"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/next_song"/>
     </LinearLayout>

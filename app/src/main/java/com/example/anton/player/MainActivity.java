@@ -1,9 +1,7 @@
-package com.example.vlad.player;
+package com.example.anton.player;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,11 +9,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
-import android.widget.CheckBox;
 import android.widget.ListView;
 
-import com.example.vlad.player.db.SqliteContext;
-import com.example.vlad.player.models.Playlist;
+import com.example.anton.player.db.SqliteContext;
+import com.example.anton.player.models.Playlist;
 
 import java.util.List;
 

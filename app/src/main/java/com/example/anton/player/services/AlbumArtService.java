@@ -1,8 +1,4 @@
-package com.example.vlad.player.services;
-
-import android.content.Context;
-
-import com.squareup.picasso.Picasso;
+package com.example.anton.player.services;
 
 
 public class AlbumArtService {

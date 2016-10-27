@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.vlad.player.PlaylistActivity">
+    tools:context="com.example.anton.player.PlaylistActivity"
+    android:background="@android:color/black">
 
     <Button
         android:layout_width="match_parent"

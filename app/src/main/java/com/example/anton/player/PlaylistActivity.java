@@ -1,18 +1,22 @@
-package com.example.vlad.player;
+package com.example.anton.player;
 
 import android.app.DialogFragment;
 import android.app.ListActivity;
+import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.example.vlad.player.db.SqliteContext;
-import com.example.vlad.player.models.Song;
-import com.example.vlad.player.utils.OpenFileDialog;
-import com.example.vlad.player.utils.SongListAdapter;
+import com.example.anton.player.db.SqliteContext;
+import com.example.anton.player.models.Song;
+import com.example.anton.player.utils.OpenFileDialog;
+import com.example.anton.player.utils.SongListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,8 +29,8 @@ public class PlaylistActivity extends ListActivity implements OpenFileDialog.Ope
     private SqliteContext sqlLiteContext;
     private List<Song> songs;
     private ArrayList<Integer> songsIds = new ArrayList<>();
-    private OpenFileDialog openFileDialog;
     private MediaPlayer mediaPlayer = new MediaPlayer();
+    private final int CM_DELETE_ID = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,17 +45,17 @@ public class PlaylistActivity extends ListActivity implements OpenFileDialog.Ope
         this.songs = this.sqlLiteContext.getSongsInPlaylist(this.playListId);
 
         resetListAdapter();
-        resetSongsIds();
+
+        registerForContextMenu(this.getListView());
 
         dlgSongInfo = new SongInfoFragment();
-
-        this.openFileDialog = new OpenFileDialog(this);
-        this.openFileDialog.setOpenDialogListener(this);
 
         btn = (Button)findViewById(R.id.buttonAddSong);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                OpenFileDialog openFileDialog = new OpenFileDialog(self);
+                openFileDialog.setOpenDialogListener(self);
                 openFileDialog.show();
             }
         });
@@ -69,23 +73,56 @@ public class PlaylistActivity extends ListActivity implements OpenFileDialog.Ope
     }
 
     @Override
+    public void onCreateContextMenu(ContextMenu menu, View v,
+                                    ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        menu.add(0, CM_DELETE_ID, 0, "Удалить запись");
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        if (item.getItemId() == CM_DELETE_ID) {
+            AdapterView.AdapterContextMenuInfo acmi = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+
+            this.sqlLiteContext.deleteSongById(this.songs.get(acmi.position).Id);
+
+            this.songs.remove(acmi.position);
+
+            resetListAdapter();
+            return true;
+        }
+        return super.onContextItemSelected(item);
+    }
+
+    @Override
     public void OnSelectedFile(String fileName) {
         Uri uri = Uri.parse(fileName);
         List<String> segments = uri.getPathSegments();
-//        MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), Uri.parse(fileName));
-//        MediaPlayer.TrackInfo[] trackInfos = mediaPlayer.get;
-//        for (MediaPlayer.TrackInfo trackInfo : trackInfos) {
-//            trackInfo.getTrackType() == MediaPlayer.TrackInfo.MEDIA_TRACK_TYPE_AUDIO
-//        }
-        Song song = new Song(segments.get(segments.size() - 1), "Gena", fileName);
+
+        MediaMetadataRetriever mmr = new MediaMetadataRetriever();
+        mmr.setDataSource(fileName);
+
+        String title = mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_TITLE);
+        String artist = mmr.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ARTIST);
+
+        if (title == null) {
+            title = segments.get(segments.size() - 1);
+        }
+        title = title.replace('\'', ' ');
+
+        if (artist != null) {
+            artist = artist.replace('\'', ' ');
+        }
+
+        Song song = new Song(title, artist, fileName);
         sqlLiteContext.addSong(song, this.playListId);
         this.songs = this.sqlLiteContext.getSongsInPlaylist(this.playListId);
         resetListAdapter();
-        resetSongsIds();
     }
 
     private void resetListAdapter() {
         setListAdapter(new SongListAdapter(this, songs));
+        resetSongsIds();
     }
 
     private void resetSongsIds() {

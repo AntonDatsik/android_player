@@ -1,4 +1,4 @@
-package com.example.vlad.player.utils;
+package com.example.anton.player.utils;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,9 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.vlad.player.R;
-import com.example.vlad.player.models.Song;
-import com.example.vlad.player.services.AlbumArtService;
+import com.example.anton.player.R;
+import com.example.anton.player.models.Song;
+import com.example.anton.player.services.AlbumArtService;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

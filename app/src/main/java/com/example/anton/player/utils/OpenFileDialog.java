@@ -1,4 +1,4 @@
-package com.example.vlad.player.utils;
+package com.example.anton.player.utils;
 
 /**
  * Created by Anton on 16.10.2016.

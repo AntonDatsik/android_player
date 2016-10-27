@@ -268,7 +268,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="49d30bea5459bd83736c1479019076b630a73658">
+        sha1="83ffaf08e9cbbcf6b01977811217fb9c59d9a6f3">
         <dex dex="C:\Users\Anton\AndroidStudioProjects\android-player-master\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_da9ea381eb829a58b275b566769c43f841991dfe.jar" />
     </item>
     <item

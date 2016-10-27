@@ -1,4 +1,4 @@
-package com.example.vlad.player.models;
+package com.example.anton.player.models;
 
 public class Song {
     public Song(int id, String title, String artist, String url) {

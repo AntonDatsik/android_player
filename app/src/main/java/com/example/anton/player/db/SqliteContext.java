@@ -1,19 +1,18 @@
-package com.example.vlad.player.db;
+package com.example.anton.player.db;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.vlad.player.models.Playlist;
-import com.example.vlad.player.models.Song;
+import com.example.anton.player.models.Playlist;
+import com.example.anton.player.models.Song;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class SqliteContext extends SQLiteOpenHelper implements IDbContext  {
+public class SqliteContext extends SQLiteOpenHelper  {
     private static final String DATABASE_NAME = "playlist4.db";
     private static final int SCHEMA = 1;
     private static final String PLAYLISTS_TABLE = "playlists";
@@ -67,7 +66,6 @@ public class SqliteContext extends SQLiteOpenHelper implements IDbContext  {
         onCreate(db);
     }
 
-    @Override
     public List<Song> getSongs() {
         SQLiteDatabase db = this.getReadableDatabase();
         String selectQuery = "SELECT  * FROM " + SONGS_TABLE;
@@ -88,7 +86,6 @@ public class SqliteContext extends SQLiteOpenHelper implements IDbContext  {
         return data;
     }
 
-    @Override
     public List<Playlist> getPlaylists() {
         String selectQuery = "SELECT  * FROM " + PLAYLISTS_TABLE;
         db = this.getReadableDatabase();
@@ -107,7 +104,6 @@ public class SqliteContext extends SQLiteOpenHelper implements IDbContext  {
         return data;
     }
 
-    @Override
     public List<Song> getSongsInPlaylist(int playlistId) {
         SQLiteDatabase db = this.getReadableDatabase();
         String selectQuery = "SELECT  * FROM " + SONGS_TABLE + " WHERE " + PS_PLAYLIST_ID + " = " + playlistId + " ;";
@@ -128,7 +124,6 @@ public class SqliteContext extends SQLiteOpenHelper implements IDbContext  {
         return data;
     }
 
-    @Override
     public void addSong(Song song, int playlistId) {
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -137,16 +132,14 @@ public class SqliteContext extends SQLiteOpenHelper implements IDbContext  {
                 " VALUES ('" + song.Title + "', '" + song.Artist + "', '" + song.Url + "', '" + playlistId + "');");
     }
 
-
-    @Override
     public void addPlaylist(Playlist playlist) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("INSERT INTO " + PLAYLISTS_TABLE + "( " + PLAYLIST_NAME + " )" + " VALUES ('" + playlist.Name + "');");
     }
 
-    @Override
-    public void deleteSongById() {
-
+    public void deleteSongById(int id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DELETE FROM " + SONGS_TABLE + " WHERE id = " + id + ";");
     }
 
     public Song getSongById(int  id) {

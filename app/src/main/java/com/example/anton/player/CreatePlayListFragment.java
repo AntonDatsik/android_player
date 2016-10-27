@@ -1,4 +1,4 @@
-package com.example.vlad.player;
+package com.example.anton.player;
 
 /**
  * Created by Anton on 18.10.2016.
@@ -7,23 +7,15 @@ package com.example.vlad.player;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.vlad.player.db.SqliteContext;
-import com.example.vlad.player.models.Playlist;
-import com.example.vlad.player.models.Song;
-import com.example.vlad.player.services.AlbumArtService;
-import com.squareup.picasso.Picasso;
-
-import java.util.ArrayList;
+import com.example.anton.player.db.SqliteContext;
+import com.example.anton.player.models.Playlist;
 
 
 public class CreatePlayListFragment extends DialogFragment implements View.OnClickListener {
@@ -33,7 +25,6 @@ public class CreatePlayListFragment extends DialogFragment implements View.OnCli
     private SqliteContext sqliteContext;
     private MainActivity activity;
 
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_add_playlist, container, false);
